@@ -41,7 +41,7 @@ export default function Home() {
       desc: "Security-focused tool with real-time feedback logic.",
       tech: [<SiReact />, <SiTailwindcss />, <SiJavascript />],
       link: "https://github.com/BiswajitBeheraDev/Password_Generator",
-      img: "/download 2.jpg", // Changed to a known valid path to avoid the 404
+      img: "/original.png", // Changed to a known valid path to avoid the 404
       color: "from-yellow-500/20 to-orange-500/20"
     },
     {
@@ -222,8 +222,8 @@ export default function Home() {
       <footer className="py-20 border-t border-white/5 text-center bg-black/50">
         <div className="flex justify-center gap-10 mb-8">
             <a href="https://github.com/BiswajitBeheraDev" className="text-zinc-600 hover:text-white transition-colors text-xl"><FaGithub /></a>
-            <a href="#" className="text-zinc-600 hover:text-white transition-colors text-xl"><FaInstagram /></a>
-            <a href="#" className="text-zinc-600 hover:text-white transition-colors text-xl"><FaFacebookF /></a>
+            {/* <a href="#" className="text-zinc-600 hover:text-white transition-colors text-xl"><FaInstagram /></a> */}
+            {/* <a href="#" className="text-zinc-600 hover:text-white transition-colors text-xl"><FaFacebookF /></a> */}
         </div>
         <p className="text-[10px] text-zinc-700 tracking-[0.5em] uppercase font-bold italic">
           © {new Date().getFullYear()} Handcrafted by Biswajit
